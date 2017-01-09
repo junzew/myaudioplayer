@@ -11,16 +11,24 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+<script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+<script type="text/javascript">
+	$("document").ready(function() {
+    setTimeout(function() {
+        $("#download").get(0).click();
+    },10);
+});
+</script>
 	<title>MyAudioPlayer</title>
 </head>
 
 
 <body>
 <div class="container">
-<h4>安卓本地音乐播放器</h4>
 <h4>Android local music player</h4>
+<img src="https://github.com/junzew/myaudioplayer/raw/master/MyAudioPlayer/app/src/main/res/mipmap-hdpi/ic_launcher.png">
 <h3>
-<a href="https://github.com/junzew/myaudioplayer/raw/master/myaudioplayer0.2-app-release.apk">Download 下载</a>
+<a id="download" href="https://github.com/junzew/myaudioplayer/raw/master/myaudioplayer0.2-app-release.apk">Download</a>
 </h3>
 <hr>
 Developed by: junzew
