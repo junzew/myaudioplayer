@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/album_art"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:padding="2dp"/>
+    <TextView
+        android:id="@+id/lv_item_title"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_toRightOf="@id/album_art"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:text="Johannes Brahms: Hungarian Dance No. 1 in G minor"
+        android:ellipsize="marquee"
+        android:textAlignment="center"
+        android:textSize="14sp"/>
+    <TextView
+        android:id="@+id/lv_item_artist"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:maxLines="1"
+        android:ellipsize="marquee"
+        android:layout_below="@id/lv_item_title"
+        android:layout_toRightOf="@id/album_art"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif"
+        android:text="Julius Katchen"
+        android:textSize="12sp"/>
+
+
+</RelativeLayout>
